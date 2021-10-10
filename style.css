@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.navbar .logo h1
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #F46060
+}
+.navbar ul
+{
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li
+{
+    list-style: none;
+    margin: 10px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3C3C3C;
+    cursor: pointer;
+}
+.home-section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-section .half-width
+{
+    position: relative;
+    width: 50%;
+    margin-left: 100px;
+    padding: 20px;
+}
+h2
+{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    display: inline-block;
+    margin-bottom: 0;
+}
+h2 span
+{
+    color: #FF8367
+}
+.home-section .half-width p
+{
+    font-size: 16px;
+    color: #3e3e3e;
+}
+.button
+{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px 40px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+}
+.button:hover
+{
+    background: linear-gradient(0deg, #F46060 -28.33%,  #FF8063 95.83%);
+}
+.home-section .half-width .img-box
+{
+    position: relative;
+}
+.home-section .half-width .img-box img
+{
+    height: 600px;
+}
+.text
+{
+    max-width: 450px;
+}
+
+.text2
+{
+    font-size: 48px;
+}
+.work
+{
+    position: relative;
+    height: 700px;
+    background: #ffeffe;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work .project
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .project .box
+{
+    height: 330px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.05);
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.work .project .box img
+{
+    height: 200px;
+}
+.work .project .box h3
+{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.work .project .box p
+{
+    color: #363958;
+    font-size: 16px;
+}
+.contact
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.contact .box
+{
+    background: url(img/Group_33094_1.png), no-repeat;
+    width: 960px;
+    height: 255px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.contact .box h3
+{
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-weight: 700;
+}
+.contact p
+{
+    color: #696871;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0;
+}
+.contact h4
+{
+    font-size: 36px;
+    margin: 0;
+    color: #363958;
+    margin-bottom: 10px;
+}
+.contact .icon
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .icon img
+{
+    height: 40px;
+    margin: 10px;
+}
